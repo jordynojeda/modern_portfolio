@@ -262,14 +262,17 @@ main#home h1 {
 }
 
 .boxes {
-  display: flexbox;
+  font-size: 2rem;
   flex-wrap: wrap;
+  text-align: center;
   justify-content: space-evenly;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 .boxes .hover1 {
-  text-align: center;
+  display: flexbox;
   flex-wrap: wrap;
+  text-align: center;
   grid-row: center;
   grid-area: hover1;
   font-size: 2rem;
@@ -327,6 +330,7 @@ main#home h1 {
 }
 
 .contact-form {
+  display: grid;
   font-size: 3rem;
   margin: auto;
   justify-content: space-evenly;
@@ -352,6 +356,7 @@ main#home h1 {
 
 ::placeholder {
   color: white;
+  font-family: Tahoma;
 }
 input {
   height: 45px;
@@ -370,6 +375,12 @@ input {
   align-items: center;
   color: black;
   border: none;
+}
+
+.boxes .submit:hover {
+  padding: 0.5rem 1.5rem;
+  background: #c4c4c4;
+  color: #000;
 }
 
 .btn,
