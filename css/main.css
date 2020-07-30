@@ -270,7 +270,6 @@ main#home h1 {
   margin-bottom: 2rem;
 }
 .boxes .hover1 {
-  display: flexbox;
   flex-wrap: wrap;
   text-align: center;
   grid-row: center;
@@ -330,6 +329,10 @@ main#home h1 {
 }
 
 .contact-form {
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  grid-row: center;
   display: grid;
   font-size: 3rem;
   margin: auto;
@@ -344,7 +347,6 @@ main#home h1 {
 
 .form-control {
   font-size: 1.75rem;
-  display: flex;
   outline: none;
   justify-content: space-evenly;
   background: transparent;
