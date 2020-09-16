@@ -270,16 +270,17 @@ main#home h1 {
   margin-bottom: 2rem;
 }
 .boxes .hover1 {
-  flex-wrap: wrap;
   text-align: center;
+  flex-wrap: wrap;
   grid-row: center;
-  grid-area: hover1;
+  grid-area: hover2;
   font-size: 2rem;
   border: 3px #fff solid;
   padding: 1.5rem 3rem;
   margin-bottom: 2rem;
   transition: all 0.5s ease-out;
 }
+
 .boxes .hover2 {
   text-align: center;
   flex-wrap: wrap;
